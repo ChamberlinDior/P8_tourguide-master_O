@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/6dc192c7f93ec1853f70d59d8a6dcf94eb42866/lombok-1.18.16.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.4.3/d4bb8ef775bcf06ac9a4fdc400a8b2404259c457/spring-boot-configuration-processor-2.4.3.jar" />
+        </processorPath>
+        <module name="tour-guide.users.users-api.main" />
+        <module name="tour-guide.gps.gps-api.main" />
+        <module name="tour-guide.gps.main" />
+        <module name="tour-guide.common.common-api.main" />
+        <module name="tour-guide.common.common-service.main" />
+        <module name="tour-guide.rewards.main" />
+        <module name="tour-guide.users.main" />
+        <module name="tour-guide.common.common-restclient.main" />
+        <module name="tour-guide.common.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/6dc192c7f93ec1853f70d59d8a6dcf94eb42866/lombok-1.18.16.jar" />
+        </processorPath>
+        <module name="tour-guide.common.common-service.test" />
+        <module name="tour-guide.gps.gps-service.test" />
+        <module name="tour-guide.common.test" />
+        <module name="tour-guide.common.common-api.test" />
+        <module name="tour-guide.rewards.test" />
+        <module name="tour-guide.gps.gps-api.test" />
+        <module name="tour-guide.rewards.rewards-service.test" />
+        <module name="tour-guide.users.users-service.test" />
+        <module name="tour-guide.common.common-restclient.test" />
+        <module name="tour-guide.users.users-api.test" />
+        <module name="tour-guide.gps.test" />
+        <module name="tour-guide.users.test" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/6dc192c7f93ec1853f70d59d8a6dcf94eb42866/lombok-1.18.16.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.4.3/d4bb8ef775bcf06ac9a4fdc400a8b2404259c457/spring-boot-configuration-processor-2.4.3.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.4.2.Final/e55bd90d51cddd638c07d5bd89fc7535d4e3d069/mapstruct-processor-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="tour-guide.gps.gps-service.main" />
+        <module name="tour-guide.rewards.rewards-service.main" />
+        <module name="tour-guide.users.users-service.main" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

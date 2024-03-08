@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/P8_tourguide-master" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/P8_tourguide-master" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/common" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/common/api" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/common/restclient" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/common/service" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/gps" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/gps/api" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/gps/service" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/rewards" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/rewards/service" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/users" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/users/api" />
+            <option value="$PROJECT_DIR$/P8_tourguide-master/users/service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

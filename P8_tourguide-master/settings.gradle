@@ -1,0 +1,17 @@
+rootProject.name = 'tour-guide'
+
+include ':common:api', ':common:restclient', ':common:service'
+project(':common:api').name = 'common-api'
+project(':common:restclient').name = 'common-restclient'
+project(':common:service').name = 'common-service'
+
+include ':gps:api', ':gps:service'
+project(':gps:api').name = 'gps-api'
+project(':gps:service').name = 'gps-service'
+
+include ':rewards:service'
+project(':rewards:service').name = 'rewards-service'
+
+include ':users:api', ':users:service'
+project(':users:api').name = 'users-api'
+project(':users:service').name = 'users-service'

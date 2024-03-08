@@ -1,0 +1,31 @@
+dependencies {
+    implementation project(':common:common-service')
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-json'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    implementation 'org.mapstruct:mapstruct'
+    annotationProcessor 'org.mapstruct:mapstruct-processor'
+
+    implementation 'org.springdoc:springdoc-openapi-webmvc-core'
+
+    implementation name: 'RewardCentral', ext: 'jar'
+}
+
+bootJar {
+    enabled true
+    archiveBaseName = 'tour-guide-rewards'
+    archiveVersion = null
+}
+jar {
+    enabled false
+}
+
+apply plugin: 'com.github.johnrengelman.processes'
+apply plugin: 'org.springdoc.openapi-gradle-plugin'
+openApi {
+    apiDocsUrl = 'http://localhost:8082/v3/api-docs'
+}
